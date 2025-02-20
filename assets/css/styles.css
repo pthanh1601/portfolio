@@ -253,6 +253,10 @@ img {
   width: 200px;
   border-radius: 0.5rem;
 }
+.about__text strong {
+  font-size: 24px; /* Tăng kích thước chữ */
+  font-weight: bold; /* Làm đậm chữ */
+}
 
 /* ===== SKILLS =====*/
 .skills__container {
@@ -312,18 +316,28 @@ img {
 
 /* ===== WORK =====*/
 .work__container {
-  row-gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Khoảng cách giữa các dự án */
+  align-items: center; /* Căn giữa nội dung */
 }
+
 .work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
-  border-radius: 0.5rem;
-  overflow: hidden;
+  display: inline-block;
+  overflow: hidden; /* Ẩn phần ảnh bị phóng to */
+  border-radius: 0.5rem; /* Bo tròn góc ảnh */
+  transition: transform 0.3s ease-in-out;
 }
+
 .work__img img {
-  transition: 1s;
+  width: 100%;
+  max-width: 300px; /* Điều chỉnh kích thước ảnh nhỏ lại */
+  transition: transform 0.3s ease-in-out;
 }
-.work__img img:hover {
-  transform: scale(1.1);
+
+/* Khi hover vào ảnh, nó sẽ thu nhỏ lại */
+.work__img:hover img {
+  transform: scale(0.9);
 }
 
 /* ===== CONTACT =====*/

@@ -6,6 +6,17 @@
 
     <link rel="stylesheet" href="assets/css/styles.css" />
 
+      <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style1.css" rel="stylesheet">
+
     <!-- =====BOX ICONS===== -->
     <link
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
@@ -54,7 +65,7 @@
         <div class="home__data">
           <h1 class="home__title">
             Hi,<br />I'am <span class="home__title-color">PhuThanh</span><br />
-            Web Designer
+            Developer
           </h1>
 
           <a href="#" class="button">Contact</a>
@@ -123,7 +134,7 @@
 
         <div class="skills__container bd-grid">
           <div>
-            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <!-- <h2 class="skills__subtitle">Profesional Skills</h2> -->
             <p class="skills__text"></p>
             <div class="skills__data">
               <div class="skills__names">
@@ -145,6 +156,12 @@
                 <span class="skills__percentage">85%</span>
               </div>
             </div>
+          
+          
+          </div>
+
+          <div>
+            <p class="skills__text"></p>
             <div class="skills__data">
               <div class="skills__names">
                 <i class="bx bxl-javascript skills__icon"></i>
@@ -166,42 +183,123 @@
               </div>
             </div>
           </div>
-
-          <div>
-            <img src="assets/img/work3.jpg" alt="" class="skills__img" />
-          </div>
         </div>
       </section>
 
       <!--===== WORK =====-->
-      <section class="work section" id="work">
-        <h2 class="section-title">Project</h2>
 
-        <div class="work__container bd-grid">
-          <p class="about__text">Web php công đoàn bộ phận</p>
-          <p class="about__text">Web bán son</p>
-          <p class="about__text">Web bán hàng mô hình MVC</p>
-          <p class="about__text">Hệ thống quản lý thư viện ngôn ngữ Java</p>
-          <!-- <a href="" class="work__img">
-            <img src="assets/img/work1.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work2.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work3.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work4.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work5.jpg" alt="" />
-          </a>
-          <a href="" class="work__img">
-            <img src="assets/img/work6.jpg" alt="" />
-          </a> -->
-        </div>
-      </section>
+      <section id="portfolio" class="resume">
+        <div class="container">
+  
+          
+            <h2 class="section-title">Portfolio</h2>
+         
+  
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+              <h3 class="resume-title">JAVA</h3>
+              <div class="resume-item">
+                <h4>Clothing Store Management System</h4>
+                <h5>Dec, 2023</h5>
+                <p><em>Github: <a
+                      href="https://github.com/pthanh1601/HTQLBanHang_QuanAo">https://github.com/pthanh1601/HTQLBanHang_QuanAo</a></em>
+                </p>
+              
+                <p>The Clothing Store Management System is a system that helps business owners easily manage their stores.
+                  It includes features such as product management, employee management, invoice management, and revenue statistics.</p>
+                <img src="assets/img/banquanao.png" style="width: 100%; height: auto; display: flex; margin: 0 auto;" />
+              </div>
+  
+  
+              <h3 class="resume-title">CSharp</h3>
+              <div class="resume-item">
+                <h4>Hotel Management </h4>
+                <h5>Mar, 2023</h5>
+                <p><em>Github: <a
+                      href="https://github.com/thuyngocmaithy/CSharp-QLKhachSan">https://github.com/thuyngocmaithy/CSharp-QLKhachSan</a></em>
+                </p>
+                <ul>
+                  <li>The Clothing Store Management System is a system that helps business owners easily manage their stores.
+                    It includes features such as product management, employee management, invoice management, and revenue statistics.</li>
+                 
+                </ul>
+                <img src="assets/img/qlkhachsan.jpg" style="width: 100%; height: auto; display: flex; margin: 0 auto;" />
+              </div>
+  
+  
+              <h3 class="resume-title">Java</h3>
+              <div class="resume-item">
+                <h4>Human Resource Management</h4>
+                <h5>Oct, 2022</h5>
+                <p><em>Github: <a
+                      href="https://github.com/pthanh1601/quanlynhansu">https://github.com/pthanh1601/quanlynhansu</a></em>
+                </p>
+                <p>Human Resource Management software with functions to manage employee information, attendance tracking,
+                  and automatically calculate salaries for employees. Additionally, the software provides flexible
+                  permission settings to facilitate the easy development of additional functions in the future.</p>
+                <img src="assets/img/qlnhansu.png" style="width: 100%; height: auto; display: flex; margin: 0 auto;" />
+              </div>
+  
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+  
+              <h3 class="resume-title">Python</h3>
+              <div class="resume-item">
+                <h4>Polyp Analysis Model (FPN)</h4>
+                <h5>Apr, 2024</h5>
+                <p><em>Kaggle: <a
+                      href="https://www.kaggle.com/code/pthanh1601/polyp/edit">https://www.kaggle.com/code/pthanh1601/polyp/edit</a></em>
+                </p>
+                
+
+
+                <ul>
+                  <li>This model is written in Python.</li>
+                  <li>It is trained on datasets, allowing it to analyze your polyp.
+                  </li>
+                  <li>Since the model uses FPN, its accuracy is not high. It is for reference and further development in the future.</li>
+              
+                </ul>
+                <img src="assets/img/polyp.png"
+                  style="width: 100%; height: auto; display: flex; margin: 0 auto;" />
+              </div>
+  
+              <h3 class="resume-title">PHP &amp; Bootstrap</h3>
+              <div class="resume-item">
+                <h4>Grade the school's department SGU </h4>
+                <h5>Oct, 2022</h5>
+                <p><em>Github: <a
+                      href="https://github.com/thuyngocmaithy/CDBP">https://github.com/thuyngocmaithy/CDBP</a></em>
+                </p>
+                <ul>
+                  <li>Scoring the activities of the department.</li>
+                  <li>Announcement to all user.</li>
+                  <li>Permission, accounts, function, executive committee members, executive committee managements by CRUD
+                    function.</li>
+                </ul>
+                <img src="assets/img/cdbp.jpg" style="width: 100%; height: auto; display: flex; margin: 0 auto;" />
+              </div>
+  
+              <h3 class="resume-title">HTML &amp; CSS &amp; JavaScript</h3>
+              <div class="resume-item">
+                <h4>Lipstick-selling website </h4>
+                <h5>Nov, 2022</h5>
+                <p><em>Github: <a
+                      href="https://github.com/pthanh1601/Lipstick-Selling-Website-main">https://github.com/pthanh1601/Lipstick-Selling-Website-main</a></em>
+                </p>
+                <p>An e-commerce website with essential functionalities such as product listing, viewing, adding products
+                  to the shopping cart, and purchasing. The website is built with HTML, CSS, and JavaScript, and the data
+                  is stored in local storage.</p>
+                <img src="assets/img/webbanson.png"
+                  style="width: 100%; height: auto; display: flex; margin: 0 auto;" />
+              </div>
+  
+  
+  
+            </div>
+  
+          </div>
+      </section><!-- End Resume Section -->
 
       <!--===== CONTACT =====-->
       <section class="contact section" id="contact">
@@ -244,5 +342,20 @@
 
     <!--===== MAIN JS =====-->
     <script src="assets/js/main.js"></script>
+
+
+      <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main1.js"></script>
   </body>
 </html>
